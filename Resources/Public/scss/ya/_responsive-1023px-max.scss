@@ -1,0 +1,49 @@
+// UP TO 1023px DESKTOP
+// ---------------------
+
+@media (max-width: 1023px) {
+	#header {
+		#slideshow {
+			max-width: 370px;
+			width: 370px;
+		}
+	}
+
+	#header-teaser-top {
+		#teaser,
+		ul#listticker {
+			display: none !important;
+		}
+	}
+
+  .container {
+    width: 620px;
+  }
+
+	#footer,
+	#footer-phone {
+		.navbar {
+			.navbar-inner {
+				.container {
+    				width: 620px;
+
+					.nav {
+						padding: 0;
+
+						li {
+						}
+
+						li.element-20 {
+						}
+						li.element-21 {
+							margin-left: 0;
+						}
+						li.element-22 {
+							float: inherit !important;
+						}
+					}
+				}
+			}
+		}
+	}
+}

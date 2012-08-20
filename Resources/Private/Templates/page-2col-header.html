@@ -1,0 +1,26 @@
+<f:layout name="layout" />
+
+
+<f:section name="content">
+	<section id="content" class="span10">
+		<div id="headercontent" class="row">
+			<section class="span10">
+				<f:cObject typoscriptObjectPath="lib.pageheader">
+					Content of left col1 here
+				</f:cObject>
+			</section>
+		</div>
+		<div class="row">
+			<section class="span6">
+				<f:cObject typoscriptObjectPath="lib.content">
+					Content of main col0 here
+				</f:cObject>
+			</section>
+			<aside class="span4 hidden-phone">
+				<f:cObject typoscriptObjectPath="lib.aside">
+					Content of right col2 here
+				</f:cObject>
+			</aside>
+		</div>
+	</section>
+</f:section>

@@ -1,0 +1,84 @@
+# in2master includes
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2master/Configuration/TypoScript/main/constants.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2master/Configuration/TypoScript/performance/constants.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2master/Configuration/TypoScript/content/constants.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2master/Configuration/TypoScript/logo/constants.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2master/Configuration/TypoScript/nav/top/constants.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2master/Configuration/TypoScript/nav/footer/constants.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2master/Configuration/TypoScript/page/constants.txt">
+
+
+# client includes
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/page/constants.ts">
+
+config {
+	domain = typo3.your-admins.de
+	devDomain = typo3.your-admins.localhost
+	rootPid = 1
+
+	logo {
+		file = EXT:in2client/Resources/Public/img/your-admins-logo.jpg
+		link = {$config.domain}
+		# link = {$config.devDomain}
+		title = your admins Ihre qualifizierten IT-Dienstleister
+		alt = your admins logo
+		width = 250m
+	}
+}
+
+content {
+	defaultHeaderTypeSidebar = 2
+	defaultHeaderTypeSidebarPrimary = 2
+
+	teaser.uid = 23
+	social.uid = 25
+	slideshow.uid = 26
+}
+
+nav {
+	home = 1
+	contact = 18
+	footer.pages = 20,21,22
+	top.pages = 14,15,16
+}
+
+phone {
+	nav {
+		footer.pages = 18,20,21,22
+	}
+}
+
+styles {
+	content {
+		sidebar {
+			imgtext {
+				maxW = 320m
+				maxWInText = 320m
+			}
+		}
+	}
+}
+
+plugin {
+	tt_news {
+		archiveTypoLink.parameter = 24
+		backPid = 24
+		catImageMode = 0
+		catTextMode = 0
+		file.templateFile = EXT:in2client/Resources/Private/ext/tt_news.html
+		noIconsInRelatedNews = 1
+		pid_list = 6
+		singlePid = 23
+	}
+
+	tx_flexslider {
+		view {
+			partialRootPath = EXT:in2client/Resources/Private/ext/flexslider/Partials/
+		}
+		settings {
+			lib {
+				moveToFooter = 1
+			}
+		}
+	}
+}

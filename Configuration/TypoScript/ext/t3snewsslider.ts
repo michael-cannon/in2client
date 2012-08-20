@@ -1,0 +1,1 @@
+plugin.tt_news.displaySlider.css = 0

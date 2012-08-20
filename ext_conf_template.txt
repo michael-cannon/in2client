@@ -1,0 +1,5 @@
+# cat=basic/enable/010; type=boolean; label=Enable Default Page TSConfig
+enableDefaultPageTSconfig = 1
+
+# cat=basic/enable/020; type=boolean; label=Enable Default User TSConfig
+enableDefaultUserTSconfig = 1

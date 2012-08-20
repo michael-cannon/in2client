@@ -1,0 +1,42 @@
+// UP TO LANDSCAPE PHONE
+// ---------------------
+
+@media (max-width: 480px) {
+}
+
+
+
+// LANDSCAPE PHONE TO SMALL DESKTOP & PORTRAIT TABLET
+// --------------------------------------------------
+
+@media (max-width: 767px) {
+	body {
+		font-size: 12px;
+		line-height: 19px;
+	}
+
+	#footer,
+	#footer-phone {
+		.navbar {
+			.nav {
+				margin-left: 0;
+			}
+		}
+	}
+
+	.container {
+		width: auto;
+		max-width: 320px;
+	}
+
+	#footer,
+	#footer-phone {
+		.navbar {
+			.navbar-inner {
+				.container {
+    				width: auto;
+				}
+			}
+		}
+	}
+}

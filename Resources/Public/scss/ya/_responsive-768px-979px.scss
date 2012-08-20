@@ -1,0 +1,26 @@
+// PORTRAIT TABLET TO DEFAULT DESKTOP
+// ----------------------------------
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+	#header-teaser-top {
+		#teaser,
+		ul#listticker {
+			max-width: 30%;
+			overflow: hidden;
+			white-space: nowrap;
+		}
+	}
+
+  // Fixed grid
+  // @include grid-core(42px, 20px);
+
+  // Fluid grid
+  // @include grid-fluid(5.801104972%, 2.762430939%);
+
+  // Input grid
+  // @include grid-input(42px, 20px);
+
+  // No need to reset .thumbnails here since it's the same @gridGutterWidth
+
+}

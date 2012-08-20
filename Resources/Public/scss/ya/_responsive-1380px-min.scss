@@ -1,0 +1,41 @@
+// LARGE DESKTOP & UP
+// ------------------
+
+@media (min-width: 1380px) {
+	#header {
+		#logo {
+			margin-left: 15px;
+		}
+
+		#slideshow {
+			width: 850px;
+		}
+	}
+
+	// Thumbnails
+	.thumbnails {
+			margin-left: -30px;
+	}
+
+	.thumbnails > li {
+		margin-left: 30px;
+	}
+
+	.row-fluid .thumbnails {
+		margin-left: 0;
+	}
+
+	.visible-desktop-large { display: inherit !important; }
+	.hidden-desktop-small { display: inherit !important; }
+
+	#footer,
+	#footer-phone {
+		.navbar {
+			.navbar-inner {
+				.container {
+    				width: 1280px;
+				}
+			}
+		}
+	}
+}

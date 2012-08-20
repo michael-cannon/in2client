@@ -1,0 +1,57 @@
+# this file includes all the basic setup-typoscript for all instances
+
+# in2master includes
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2master/Configuration/TypoScript/main/setup.txt">
+# <INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2master/Configuration/TypoScript/performance/setup.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2master/Configuration/TypoScript/language/german/setup.txt">
+# <INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2master/Configuration/TypoScript/language/english/setup.txt">
+# <INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2master/Configuration/TypoScript/meta/setup.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2master/Configuration/TypoScript/headerComment/setup.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2master/Configuration/TypoScript/content/setup.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2master/Configuration/TypoScript/logo/setup.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2master/Configuration/TypoScript/nav/default/setup.txt">
+# <INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2master/Configuration/TypoScript/nav/breadcrumb/setup.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2master/Configuration/TypoScript/nav/top/setup.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2master/Configuration/TypoScript/nav/footer/setup.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/nav/footer.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2master/Configuration/TypoScript/nav/header/setup.txt">
+# <INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2master/Configuration/TypoScript/nav/sidebar/setup.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2master/Configuration/TypoScript/page/setup.txt">
+
+# client page settings
+#<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/page/config.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/page/includes.ts">
+# <INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/page/fluidtemplate.ts">
+
+# content rendering
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/content/border.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/content/social.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/content/header_layout.ts">
+# <INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/content/logo.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/content/responsive.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/content/section_frame.ts">
+# <INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/content/headlines.ts">
+# <INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/content/images.ts">
+# <INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/content/frames.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/content/slideshow.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/content/teaser.ts">
+# <INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/pageheader.ts">
+# <INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/aside.ts">
+
+# extensions
+# <INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/ext/gridelements.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/ext/tt_news.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/ext/t3snewsslider.ts">
+
+# navigation
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/nav/header.ts">
+# <INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/nav/service.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/nav/top.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/nav/contact.ts">
+
+# phone
+# <INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/nav/phone.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/phone/logo.ts">
+# <INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/phone/aside.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/phone/nav/main.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/phone/nav/footer.ts">

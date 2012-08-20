@@ -1,0 +1,48 @@
+// UP TO 1379px DESKTOP
+// ---------------------
+
+@media (max-width: 1379px) {
+	#header {
+		#logo {
+			margin-left: 0;
+		}
+
+		#slideshow {
+			max-width: 75%;
+			overflow: hidden;
+			white-space: nowrap;
+			width: 695px;
+		}
+	}
+
+	#header-teaser-top {
+		#teaser,
+		ul#listticker {
+			max-width: 50%;
+			overflow: hidden;
+			white-space: nowrap;
+		}
+	}
+
+  // Remove width from containers
+  .container {
+    width: 945px;
+  }
+
+	#footer,
+	#footer-phone {
+		.navbar {
+			.navbar-inner {
+				.container {
+    				width: 945px;
+
+					.nav {
+						li.element-21 {
+							margin-left: 135px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
