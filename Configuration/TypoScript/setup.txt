@@ -48,6 +48,8 @@
 # <INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/nav/service.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/nav/top.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/nav/contact.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/nav/sub.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/nav/navpath.ts">
 
 # phone
 # <INCLUDE_TYPOSCRIPT: source="FILE:EXT:in2client/Configuration/TypoScript/nav/phone.ts">

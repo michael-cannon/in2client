@@ -3,8 +3,8 @@
 ##
 
 # ID of page which contains the be-layouts
-TCEFORM.pages.backend_layout.PAGE_TSCONFIG_ID = 3
-TCEFORM.pages.backend_layout_next_level.PAGE_TSCONFIG_ID = 3
+TCEFORM.pages.backend_layout.PAGE_TSCONFIG_ID = 32
+TCEFORM.pages.backend_layout_next_level.PAGE_TSCONFIG_ID = 32
 
 # hides the "none" value
 TCEFORM.pages.backend_layout_next_level.removeItems = -1

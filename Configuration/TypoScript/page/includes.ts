@@ -1,6 +1,13 @@
 page {
 
 	headerData {
+		10 = TEXT
+		10.value (
+			<!--[if lt IE 9]>
+				<link rel="stylesheet" type="text/css" href="typo3conf/ext/in2client/Resources/Public/css/ya/ie8.css" media="all">
+				<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+			<![endif]-->
+		)
 	}
 
 	includeCSS {

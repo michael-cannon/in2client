@@ -1,0 +1,9 @@
+.hidden-tablet-portrait    { display: block !important; }
+.hidden-desktop-small    { display: block !important; }
+.visible-desktop-large    { display: block !important; }
+#logo {
+	width: 300px;
+}
+img {
+	max-width: inherit !important;
+}

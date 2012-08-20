@@ -12,7 +12,7 @@ tt_content.stdWrap.innerWrap.cObject {
 	100.20.10.value = csc-default bottommost
 
 	110 =< tt_content.stdWrap.innerWrap.cObject.default
-	110.20.10.value = csc-default bottommost second
+	110.20.10.value = csc-default bottommost second hidden-desktop-small
 
 	200 =< tt_content.stdWrap.innerWrap.cObject.default
 	200.20.10.value = csc-default hidden-phone

@@ -1,0 +1,79 @@
+<f:layout name="ya_subsite" />
+
+<f:section name="content">
+	<div id="content" class="hidden-phone">
+		<div class="container">
+			<f:cObject typoscriptObjectPath="lib.nav.navpath">
+				<div id="navpath">
+					Sie sind hier &gt; <a href="#">Über uns</a> &gt; <a href="#">Natalia Frohnapfel</a>
+				</div>
+			</f:cObject>
+			<div class="row subsite">
+				<div class="span4c firstColumnSub hidden-tablet-portrait">
+					<f:cObject typoscriptObjectPath="lib.nav.sub">
+						<ul id="menu_sub">
+							<li><a href="#">Sub 1</a></li>
+							<li class="act"><a href="#">Sub 2</a></li>
+							<li><a href="#">Sub 3</a></li>
+							<li><a href="#">Sub 4</a></li>
+						</ul>
+					</f:cObject>
+				</div>
+				<div class="span4c secondColumnSub paddingTop">
+					<f:cObject typoscriptObjectPath="lib.content.getLeft">
+						<h2>Features &amp; includes</h2>
+						<p>Bootstrap comes complete with compiled CSS, uncompiled, and example templates.</p>
+						<ul>
+							<li>Custom jQuery plugins</li>
+							<li>Complete styleguide documentation</li>
+							<li>Three example pages with different layouts</li>
+							<li>Dozens of components</li>
+							<li>12-column grid system</li>
+							<li>Built on LESS</li>
+							<li>Dozens of fully functional components</li>
+							<li>Components are scaled according to a range of resolutions and devices</li>
+						</ul>
+					</f:cObject>
+				</div>
+				<div class="span4c thirdColumnSub hidden-desktop-small hidden-tablet paddingTop">
+					<f:cObject typoscriptObjectPath="lib.content.getRight">
+						<h2>Features &amp; includes</h2>
+						<p>Bootstrap comes complete with compiled CSS, uncompiled, and example templates.</p>
+						<ul>
+							<li>Custom jQuery plugins</li>
+							<li>Complete styleguide documentation</li>
+							<li>Three example pages with different layouts</li>
+							<li>Dozens of components</li>
+							<li>12-column grid system</li>
+							<li>Built on LESS</li>
+							<li>Dozens of fully functional components</li>
+							<li>Components are scaled according to a range of resolutions and devices</li>
+						</ul>
+					</f:cObject>
+				</div>
+				<div class="span3c pull-right paddingTop">
+					<f:cObject typoscriptObjectPath="lib.content.getBorder">
+						<h3>Features &amp; includes</h3>
+						<p>Bootstrap comes complete with compiled CSS, uncompiled, and example templates.</p>
+						<ul>
+							<li>Custom jQuery plugins</li>
+							<li>Complete styleguide documentation</li>
+							<li>Three example pages with different layouts</li>
+							<li>Dozens of components</li>
+							<li>12-column grid system</li>
+							<li>Built on LESS</li>
+							<li>Dozens of fully functional components</li>
+							<li>Components are scaled according to a range of resolutions and devices</li>
+						</ul>
+					</f:cObject>
+					<div id="social">
+						<f:cObject typoscriptObjectPath="lib.social">
+							I'm social darling
+						</f:cObject>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</f:section>

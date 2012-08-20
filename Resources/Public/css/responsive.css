@@ -426,8 +426,8 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     float: left;
-    margin-left: 2.762%;
-    *margin-left: 2.709%;
+    margin-left: 2.76243%;
+    *margin-left: 2.70924%;
   }
   /* line 607, ../scss/_mixins.scss */
   .row-fluid [class*="span"]:first-child {
@@ -436,62 +436,62 @@
   /* line 614, ../scss/_mixins.scss */
   .row-fluid .span12 {
     width: 100.0%;
-    *width: 99.947%;
+    *width: 99.94681%;
   }
   /* line 614, ../scss/_mixins.scss */
   .row-fluid .span11 {
-    width: 91.436%;
-    *width: 91.383%;
+    width: 91.43646%;
+    *width: 91.38327%;
   }
   /* line 614, ../scss/_mixins.scss */
   .row-fluid .span10 {
-    width: 82.873%;
-    *width: 82.82%;
+    width: 82.87293%;
+    *width: 82.81974%;
   }
   /* line 614, ../scss/_mixins.scss */
   .row-fluid .span9 {
-    width: 74.309%;
-    *width: 74.256%;
+    width: 74.30939%;
+    *width: 74.2562%;
   }
   /* line 614, ../scss/_mixins.scss */
   .row-fluid .span8 {
-    width: 65.746%;
-    *width: 65.693%;
+    width: 65.74586%;
+    *width: 65.69266%;
   }
   /* line 614, ../scss/_mixins.scss */
   .row-fluid .span7 {
-    width: 57.182%;
-    *width: 57.129%;
+    width: 57.18232%;
+    *width: 57.12913%;
   }
   /* line 614, ../scss/_mixins.scss */
   .row-fluid .span6 {
-    width: 48.619%;
-    *width: 48.566%;
+    width: 48.61878%;
+    *width: 48.56559%;
   }
   /* line 614, ../scss/_mixins.scss */
   .row-fluid .span5 {
-    width: 40.055%;
-    *width: 40.002%;
+    width: 40.05525%;
+    *width: 40.00206%;
   }
   /* line 614, ../scss/_mixins.scss */
   .row-fluid .span4 {
-    width: 31.492%;
-    *width: 31.439%;
+    width: 31.49171%;
+    *width: 31.43852%;
   }
   /* line 614, ../scss/_mixins.scss */
   .row-fluid .span3 {
-    width: 22.928%;
-    *width: 22.875%;
+    width: 22.92818%;
+    *width: 22.87499%;
   }
   /* line 614, ../scss/_mixins.scss */
   .row-fluid .span2 {
-    width: 14.365%;
-    *width: 14.311%;
+    width: 14.36464%;
+    *width: 14.31145%;
   }
   /* line 614, ../scss/_mixins.scss */
   .row-fluid .span1 {
-    width: 5.801%;
-    *width: 5.748%;
+    width: 5.8011%;
+    *width: 5.74791%;
   }
 
   /* line 629, ../scss/_mixins.scss */
@@ -758,8 +758,8 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     float: left;
-    margin-left: 2.564%;
-    *margin-left: 2.511%;
+    margin-left: 2.5641%;
+    *margin-left: 2.51091%;
   }
   /* line 607, ../scss/_mixins.scss */
   .row-fluid [class*="span"]:first-child {
@@ -768,62 +768,62 @@
   /* line 614, ../scss/_mixins.scss */
   .row-fluid .span12 {
     width: 100%;
-    *width: 99.947%;
+    *width: 99.94681%;
   }
   /* line 614, ../scss/_mixins.scss */
   .row-fluid .span11 {
-    width: 91.453%;
-    *width: 91.4%;
+    width: 91.45299%;
+    *width: 91.3998%;
   }
   /* line 614, ../scss/_mixins.scss */
   .row-fluid .span10 {
-    width: 82.906%;
-    *width: 82.853%;
+    width: 82.90598%;
+    *width: 82.85279%;
   }
   /* line 614, ../scss/_mixins.scss */
   .row-fluid .span9 {
-    width: 74.359%;
-    *width: 74.306%;
+    width: 74.35897%;
+    *width: 74.30578%;
   }
   /* line 614, ../scss/_mixins.scss */
   .row-fluid .span8 {
-    width: 65.812%;
-    *width: 65.759%;
+    width: 65.81197%;
+    *width: 65.75877%;
   }
   /* line 614, ../scss/_mixins.scss */
   .row-fluid .span7 {
-    width: 57.265%;
-    *width: 57.212%;
+    width: 57.26496%;
+    *width: 57.21177%;
   }
   /* line 614, ../scss/_mixins.scss */
   .row-fluid .span6 {
-    width: 48.718%;
-    *width: 48.665%;
+    width: 48.71795%;
+    *width: 48.66476%;
   }
   /* line 614, ../scss/_mixins.scss */
   .row-fluid .span5 {
-    width: 40.171%;
-    *width: 40.118%;
+    width: 40.17094%;
+    *width: 40.11775%;
   }
   /* line 614, ../scss/_mixins.scss */
   .row-fluid .span4 {
-    width: 31.624%;
-    *width: 31.571%;
+    width: 31.62393%;
+    *width: 31.57074%;
   }
   /* line 614, ../scss/_mixins.scss */
   .row-fluid .span3 {
-    width: 23.077%;
-    *width: 23.024%;
+    width: 23.07692%;
+    *width: 23.02373%;
   }
   /* line 614, ../scss/_mixins.scss */
   .row-fluid .span2 {
-    width: 14.53%;
-    *width: 14.477%;
+    width: 14.52991%;
+    *width: 14.47672%;
   }
   /* line 614, ../scss/_mixins.scss */
   .row-fluid .span1 {
-    width: 5.983%;
-    *width: 5.93%;
+    width: 5.98291%;
+    *width: 5.92971%;
   }
 
   /* line 629, ../scss/_mixins.scss */

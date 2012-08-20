@@ -65,10 +65,10 @@ $experimental-support-for-svg: true;
 
 // End: Twitter Bootstrap styles
 
+// specifics for this project
+@import "override";
 
 // Bootstrap inspired responsive modifications for this project
 @import "responsive";
 
 
-// specifics for this project
-@import "override";

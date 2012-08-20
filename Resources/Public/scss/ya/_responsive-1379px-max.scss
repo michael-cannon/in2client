@@ -37,12 +37,21 @@
     				width: 945px;
 
 					.nav {
-						li.element-21 {
+						li.element-40 {
 							margin-left: 135px;
 						}
 					}
 				}
 			}
+		}
+	}
+
+	#content {
+		#navpath {
+			width: 405px;
+		}
+		.row {
+			min-height: 480px;
 		}
 	}
 }

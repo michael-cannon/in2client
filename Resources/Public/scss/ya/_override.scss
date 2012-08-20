@@ -34,6 +34,7 @@ $navphoneGreyStart: #ededef;
 $navphoneGreyEnd: #b6b7b9;
 
 @mixin block-header {
+	background: $contentHeaderWrapperStart;
 	@include background-image( linear-gradient($contentHeaderWrapperStart, $contentHeaderWrapperEnd) );
 
 	color: $contentHeaderBlock;
@@ -98,12 +99,28 @@ $navphoneGreyEnd: #b6b7b9;
 	.csc-default {
 		margin-bottom: 20px;
 		max-width: 320px;
+		clear: both;
 	}
 
-	.csc-textpic {
-		img {
-			padding-left: 5px;
-			padding-right: 5px;
+	.subsite {
+		.span4c {
+		  .csc-default {
+			padding-top: 34px;
+			clear: both;
+
+			&:first-child {
+			  padding-top: 0;
+			}
+		  }
+		}
+		.csc-textpic {
+			img {
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+		.csc-firstHeader {
+			padding-bottom: 15px;
 		}
 	}
 
@@ -142,6 +159,7 @@ $navphoneGreyEnd: #b6b7b9;
 			font-size: 12px;
 			line-height: 19px;
 			padding: 0;
+			height: 100px;
 
 			.news-list-morelink {
 				a {
@@ -159,6 +177,10 @@ $navphoneGreyEnd: #b6b7b9;
 				font-weight: normal;
 				line-height: 19px;
 			}
+	}
+
+	.hidden-desktop-small .news-list-container {
+		margin-top: 25px;
 	}
 }
 
@@ -183,6 +205,7 @@ $navphoneGreyEnd: #b6b7b9;
 			float: initial !important;
 			font-size: 12px;
 			line-height: 16px;
+			margin-bottom: 0;
 		}
 	}
 
@@ -234,9 +257,14 @@ body {
 
 	#logo {
 	}
+
+	#slideshow {
+		width: 850px;
+	}
 }
 
 #header-teaser-top {
+	background: $headerTeaserTopGreyStart;
 	@include background-image( linear-gradient($headerTeaserTopGreyStart, $headerTeaserTopGreyEnd) );
 
 	color: $navHeaderGrey;
@@ -348,6 +376,7 @@ body {
 				}
 
 				&.search-query {
+					background: $navTopSearchBlueStart;
 					@include background-image( linear-gradient($navTopSearchBlueStart, $navTopSearchBlueEnd) );
 
 					border-color: $navbarText;
@@ -366,11 +395,13 @@ body {
 }
 
 #content-wrapper {
-	@include background-image( linear-gradient($contentWrapperBlueStart, $contentWrapperBlueEnd 250px) );
+	background: #eee;
+	@include background-image( linear-gradient($navHeaderBlueStart, $contentWrapperBlueEnd 250px) );
 	margin-bottom: 50px;
 
 	#content-header {
 		.container {
+			background: $navHeaderBlueEnd;
 			@include background-image( linear-gradient($navHeaderBlueStart, $navHeaderBlueEnd) );
 		}
 
@@ -380,11 +411,12 @@ body {
 			ul.nav {
 
 				a {
-					margin-top: 1px;
+					//margin-top: 1px;
 				}
 
 				.active {
 					&> a {
+						background: $navHeaderActiveStart;
 						@include background-image( linear-gradient($navHeaderActiveStart, $navHeaderActiveEnd) );
 
 						line-height: 18px;
@@ -424,7 +456,6 @@ body {
 				&> li {
 					border-left: $white 1px solid;
 					height: 30px;
-					padding-top: 2px;
 
 					&:first-child {
 						border-left: none;
@@ -432,9 +463,8 @@ body {
 
 					&> a {
 						color: $white;
-						padding-bottom: inherit !important;
-						padding-top: inherit !important;
 						text-shadow: none;
+						padding: 6px 10px 6px 10px;
 					}
 				}
 			}
@@ -523,6 +553,9 @@ body {
 //					}
 				}
  			}
+			textarea {
+				height: 75px;
+			}
 		}
 
 		.span4c {
@@ -534,11 +567,58 @@ body {
 				}
 
 				&.second {
-				  bottom: 220px;
+					bottom: 190px;
 				}
 
 				position: absolute;
 				bottom: 0;
+			}
+
+			&.firstColumnSub {
+				width: 220px;
+			}
+			&.secondColumnSub,
+			&.thirdColumnSub {
+				width: 370px;
+			}
+		}
+
+		.paddingTop {
+			padding-top: 32px;
+		}
+
+		#menu_sub {
+			list-style-type: none;
+			border-right: 1px solid $headerTeaserTopGreyStart;
+			min-height: 600px;
+			margin: 0;
+
+			li {
+				border-bottom: 1px solid $headerTeaserTopGreyStart;
+				padding: 10px 0;
+				a {
+					color: $asideBackground;
+					display: block;
+					padding-left: 40px;
+					font-weight: bold;
+					background-image: url('../../img/arrow_right_grey.png');
+					background-repeat: no-repeat;
+					background-position: 0 2px;
+				}
+				&.act a {
+					color: $contentHeaderColor;
+				}
+			}
+		}
+
+		#navpath {
+			padding-left: 240px;
+			margin-left: 20px;
+			padding-bottom: 5px;
+			border-bottom: 1px solid $headerTeaserTopGreyStart;
+
+			a {
+				color: $contentHeaderColor;
 			}
 		}
 	}
@@ -608,6 +688,7 @@ body {
 		padding-right: 11px;
 
 		&:first-child {
+			background: #bbb;
 			@include background-image( linear-gradient(#bbb, $white 27px) );
 
 			padding-top: 10px;
@@ -638,6 +719,7 @@ body {
 	}
 
 	.nav-stacked > li {
+		background: $navphoneBlueStart;
   		@include background-image( linear-gradient($navphoneBlueStart, $navphoneBlueEnd) );
 
 		border-bottom: 2px $navphoneBlueBorder solid;
@@ -717,7 +799,7 @@ body {
 
 			padding-left: 15px;
 			padding-right: 15px;
-			width: 85%;
+			width: 96%;
 
 			li a {
 				height: 40px;
@@ -725,9 +807,9 @@ body {
 				padding-right: 0;
 			}
 
-			li.element-20 a {
+			li.element-39 a {
 				background: url('../../img/footer_watch.png') no-repeat left center;
-				padding-left: 48px;
+				padding-left: 54px;
 				padding-right: 20px;
 
 				&:after {
@@ -735,8 +817,8 @@ body {
 					padding-left: 5px;
 				}
 			}
-			li.element-21 {
-				margin-left: 250px;
+			li.element-40 {
+				margin-left: 285px;
 
 				a {
 					background: url('../../img/footer_arrow.png') no-repeat left center;
@@ -748,12 +830,12 @@ body {
 					}
 				}
 			}
-			li.element-22 {
+			li.element-41 {
 				float: right;
 
 				a {
 					background: url('../../img/footer_phone.png') no-repeat left center;
-					padding-left: 64px;
+					padding-left: 40px;
 				}
 			}
 		}
@@ -774,6 +856,7 @@ body {
 		margin-bottom: 0;
 
 		.navbar-inner {
+			background: $contentHeaderWrapperStart;
 			@include background-image( linear-gradient($contentHeaderWrapperStart, $contentHeaderWrapperEnd) );
 
 			padding-left: 0;
@@ -797,6 +880,8 @@ body {
 
 				li {
 					border-left: $contentHeaderBlock thin solid;
+					width: 78px;
+					overflow: hidden;
 
 					&:first-child {
 						border-left: none;
@@ -806,11 +891,12 @@ body {
 					a {
 						margin-left: 2px;
 						padding-right: 8px;
+						text-indent: -9999px;
 					}
 				}
 
-				li.element-18 a {
-					background: url('../../img/letter.png') no-repeat left center;
+				li.element-42 a {
+					background: url('../../img/letter.png') no-repeat center center;
 					padding-left: 42px;
 
 					&:after {
@@ -818,8 +904,8 @@ body {
 					}
 				}
 
-				li.element-20 a {
-					background: url('../../img/phone.png') no-repeat left center;
+				li.element-41 a {
+					background: url('../../img/phone.png') no-repeat center center;
 					padding-left: 23px;
 
 					&:after {
@@ -827,11 +913,11 @@ body {
 					}
 				}
 
-				li.element-21 {
+				li.element-39 {
 					margin-left: 0;
 
 					a {
-						background: url('../../img/watch.png') no-repeat left center;
+						background: url('../../img/watch.png') no-repeat center center;
 						padding-left: 29px;
 
 						&:after {
@@ -840,9 +926,13 @@ body {
 					}
 				}
 
-				li.element-22 a {
-					background: url('../../img/arrow.png') no-repeat left center;
-					padding-left: 44px;
+				li.element-40 {
+					margin-left: 0;
+
+					a {
+						background: url('../../img/arrow.png') no-repeat center center;
+						padding-left: 44px;
+					}
 				}
 			}
 		}
@@ -859,12 +949,12 @@ body {
   position: relative;
   height: 30px;
   margin: 20px;
-}
-#newsticker > li {
-  white-space: nowrap;
-  position: absolute;
-  display: none;
-}
-#newsticker > li:first-child {
-  display: block;
+  li {
+	white-space: nowrap;
+	position: absolute;
+	display: none;
+  }
+  li:first-child {
+	display: block;
+  }
 }

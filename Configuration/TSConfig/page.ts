@@ -23,6 +23,8 @@ TCEFORM {
 			addItems.200 = Grau Bausteinkopfes
 		}
 
+		spaceBefore.disabled = 0
+
 		section_frame {
 			removeItems = 1,5,6,10,11,12,20,21
 			addItems {

@@ -33,16 +33,30 @@
 						li {
 						}
 
-						li.element-20 {
+						li.element-39 {
 						}
-						li.element-21 {
+						li.element-40 {
 							margin-left: 0;
 						}
-						li.element-22 {
-							float: inherit !important;
+						li.element-41 {
+							//float: inherit !important;
 						}
 					}
 				}
+			}
+		}
+	}
+
+	#content {
+		#navpath {
+			width: 585px;
+			padding-left: 0 !important;
+		}
+
+		.span4c {
+			&.secondColumnSub,
+			&.thirdColumnSub {
+				width: 320px !important;
 			}
 		}
 	}

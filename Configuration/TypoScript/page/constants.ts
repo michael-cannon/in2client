@@ -15,3 +15,7 @@ config {
 		jsPath = EXT:in2client/Resources/Public/js
 	}
 }
+
+[treeLevel = 1,2,3,4,5]
+config.template.file = ya_subsite.html
+[end]
